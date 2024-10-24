@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vizag Steel Plant Products</title>
+    <link rel="stylesheet" href="\RINL\CSS\styles_h.css">
+</head>
+<body>
+    <a href="/RINL/HTML/logout.html">
+        <button class="logout" id="last">
+        Logout
+        </button>
+    </a>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/RINL/HTML/home.html"><img src="/RINL/Images/home.jpg" alt="Home"></a></li>
+                <li><a href="https://www.vizagsteel.com/insiderinl/contactus.asp"><img src="/RINL/Images/contact.png" alt="Contact Us"></a></li>
+                <li><a href="/RINL/HTML/cart.html"><img src="/RINL/Images/cart.png" alt="Cart"></a></li>
+            </ul>
+        </nav>
+        <img class="logo" src ="/RINL/Images/logo.jpg">
+        <h1>Welcome to Vizag Steel Plant - RINL</h1>
+        <h4>Your trusted source for high-quality Steel products</h4>
+
+    </header>
+    <main>
+        <div class="flip-card-container">
+            <div class="flip-card" id="myFlipCard">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <h3>Light and Medium Merchant Mill</h3>
+                    </div>
+                    <div class="flip-card-back">
+                    <ul class="bullet-points" id="products_b">
+                        <li> Rounds</li>
+                        <li> Rebars</li>
+                    </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card" id="myFlipCard">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <h3>Wire Rod Mill</h3>
+                    </div>
+                    <div class="flip-card-back">
+                    <ul class="bullet-points">
+                        <li> Wire rods in coil</li>
+                        <li> TMT-Rebars</li>
+                    </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card" id="myFlipCard">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <h3>Medium Merchant and Structural Mill</h3>
+                    </div>
+                    <div class="flip-card-back">
+                    <ul class="bullet-points">
+                        <li>Channels</li>
+                        <li>Angles</li>
+                        <li>Rounds</li>
+                        <li>Billets</li>
+                    </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card" id="myFlipCard">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <h3>Special Bar Mill</h3>
+                    </div>
+                    <div class="flip-card-back">
+                    <ul class="bullet-points">
+                        <li>TMT-Rebars</li>
+                        <li>WRC > 16mm</li>
+                        <li>Rounds</li>
+                    </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card" id="myFlipCard">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <h3>Standard Intermediate and Functioning Mill</h3>
+                    </div>
+                    <div class="flip-card-back">
+                    <ul class="bullet-points">
+                        <li>Channels</li>
+                        <li>Angles</li>
+                        <li>Rounds</li>
+                        <li>Billets</li>
+                        <li>Flats</li>
+                        <li>Light Beam</li>
+                    </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card" id="myFlipCard">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <h3>Wire Rod Mill - 2</h3>
+                    </div>
+                    <div class="flip-card-back">
+                    <ul class="bullet-points">
+                        <li> Wire rods in coil</li>
+                        <li> TMT-Rebars</li>
+                    </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class ="container" id="order">
+            <h2>Place Your Order</h2>
+            <form action="#" method="post" id="productForm">
+        <label for="product">Select a Product:</label>
+        <select id="product" name="product">
+            
+            <optgroup label="LMM Products">
+                <option value="product1">Rounds</option>
+                <option value="product2">Rebars</option>
+            </optgroup>
+            
+            <optgroup label="WRM Products">
+                <option value="product3">TMT-Rebars</option>
+                <option value="product4">Wire rods in coil</option>
+            </optgroup>
+            
+            <optgroup label="MMSM Products">
+                <option value="product5">Channels</option>
+                <option value="product6">Angles</option>
+                <option value="product7">Rounds </option>
+                <option value="product8">Billets</option>
+            </optgroup>
+            
+            <optgroup label="SBM Products">
+                <option value="product9">TMT-Rebar</option>
+                <option value="product10">WRC > 16mm</option>
+                <option value="product11">Rounds</option>
+            </optgroup>
+         
+            <optgroup label="WRM2 Products">
+                <option value="product12">TMT-Rebar</option>
+                <option value="product13">Wire rods in coil</option>
+            </optgroup>
+            
+            <optgroup label="STM Products">
+                <option value="product14">Channels</option>
+                <option value="product15">Angles</option>
+                <option value="product16">Rounds</option>
+                <option value="product17">Flats</option>
+                <option value="product18">Light Beam</option>
+                <option value="product19">Billets</option>
+            </optgroup>
+        </select>
+        <br>
+        <br>
+        <label for="subtype">Type(length):</label>
+            <select id="dimensionSelect">
+                <optgroup label ="select the type of dimension">
+                    <option value="4d">4-Dimensinal</option>
+                    <option value="3d">3-Dimensinal</option>
+                    <option value="2d">2-Dimensinal</option>
+                    <option value="1d">1-Dimensinal</option>
+                </optgroup>
+            </select>
+            <div id="dimensionInputs"></div>
+         <br>
+         <br>
+
+        <label for="quantity">Quantity (in tonnes):</label>
+            <input type="number" id="quantity" name="quantity" required>
+        <br><br>
+        <a href="/RINL/HTML/order.html"> 
+            <button> Place order </button> 
+        </a>
+    </form>
+        </section>
+
+        <ul class="red-alert">
+            <h3>By default the products are of below measurements, if you want you can alter them.</h3>
+            <li>Rounds - 20 mm - price starts from 67000 rupees </li>
+            <li>Rebars and TMT-Rebars - 10 mm</li>
+            <li>Wire rods in coil - 50mm</li>
+            <li>Channels - 250*80 mm</li>
+            <li>Angles - 110*110*10 mm</li>
+            <li>Flats - 50*10 mm</li>
+            <li>Billets - 150*150 mm</li>
+            <li>Light Beam - 30*10*1*1 mm</li>
+        </ul> 
+    </main>
+
+    <script src="script.js"></script>
+    <script>
+       
+        function generateDimensionInputs() {
+            const dimensionSelect = document.getElementById('dimensionSelect');
+            const dimensionInputs = document.getElementById('dimensionInputs');
+            const numDimensions = parseInt(dimensionSelect.value);
+
+            dimensionInputs.innerHTML = ''; 
+
+            for (let i = 1; i <= numDimensions; i++) {
+                const inputLabel = document.createElement('label');
+                inputLabel.textContent = `Dimension ${i}: `;
+                const inputField = document.createElement('input');
+                inputField.type = 'number';
+                inputField.name = `dimension${i}`;
+                inputField.required = true;
+
+                dimensionInputs.appendChild(inputLabel);
+                dimensionInputs.appendChild(inputField);
+                dimensionInputs.appendChild(document.createElement('br'));
+            }
+        }
+
+        const dimensionSelect = document.getElementById('dimensionSelect');
+        dimensionSelect.addEventListener('change', generateDimensionInputs);
+
+        generateDimensionInputs();
+    </script>
+</body>
+</html>
